@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"heroku": {
+		"goVersion": "go1.8",
+		"install": [
+			"."
+		]
+	},
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "aH9SLZLg10Jsvdb+3sZlCYoIisY=",
+			"path": "github.com/ramin0/go-rails",
+			"revision": "afdf9d63c9fd8d12a3a0cbd19f50c745b26d1759",
+			"revisionTime": "2017-10-22T23:13:07Z"
+		}
+	],
+	"rootPath": "github.com/ramin0/go-rails-app"
+}

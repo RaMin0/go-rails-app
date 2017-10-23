@@ -1,0 +1,8 @@
+{{define "content"}}
+  <h1>Posts</h1>
+  {{with .post}}
+    <h2>{{.Title}}</h2>
+    <p>{{.Content}}</p>
+  {{end}}
+  <a href="/posts">&larr; Back</a>
+{{end}}

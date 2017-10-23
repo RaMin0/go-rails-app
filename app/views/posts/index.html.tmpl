@@ -1,0 +1,12 @@
+{{define "content"}}
+  <h1>Posts</h1>
+  {{if .posts}}
+    <ul>
+      {{range .posts}}
+        <li>{{linkTo .Title .}}</li>
+      {{end}}
+    </ul>
+  {{else}}
+    <p>No posts yet.</p>
+  {{end}}
+{{end}}
